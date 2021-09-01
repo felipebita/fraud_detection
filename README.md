@@ -13,7 +13,7 @@ A very agressive strategy:
 *   The company will receive 5% of the value of each transaction detected as fraud, however the transaction is truly legitimate.
 *   The company will return 100% of the value to the customer for each transaction detected as legitimate, however the transaction is truly a fraud.
 
-### 1.3 The Challenge
+### 1.3 - The Challenge
 You have been hired as a Data Science Consultant to create a highly accurate fraud detection model. You need to provide a model in production where clients will send their transactions via API to be classified as fraudulent or legitimate. In addition, you need to submit a report containing your model's performance and the profit that the company will make using the service. Your report should contain the answers to the following questions:
 *   What is the model's Precision and Accuracy?
 *   How Reliable is the model in classifying transactions as legitimate or fraudulent?

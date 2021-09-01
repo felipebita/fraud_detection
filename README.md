@@ -1,6 +1,8 @@
+![fraud](https://user-images.githubusercontent.com/44379044/131612132-7b78ceaa-09f9-4eef-b86a-b3979fae2909.png)
+
 # **Fraudulent Transaction Detection**
 
-This is a data science portfolio case proposed in the site [Seja Um Data Scientist](https://sejaumdatascientist.com/crie-uma-solucao-para-fraudes-em-transacoes-financeiras-usando-machine-learning/), the data set used is [Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ealaxi/paysim1).
+This is a not finished data science project, the business problem is proposed in [Seja Um Data Scientist](https://sejaumdatascientist.com/crie-uma-solucao-para-fraudes-em-transacoes-financeiras-usando-machine-learning/), using the data set [Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ealaxi/paysim1).
 
 ## **1 - Business Understanding**
 ### 1.1 - Blocker Fraud Company

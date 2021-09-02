@@ -25,6 +25,6 @@ You have been hired as a Data Science Consultant to create a highly accurate fra
 ## **2 - Solution Strategy**
 A data science project was developed to build, evaluate and launch a machine learning model capable of classifying transactions as fraudulent or legitimate. The project consists of the following steps:
 
-**1 - Data Analysis and Prepatarion**
+**2.1 - Data Analysis and Prepatarion**
 
 

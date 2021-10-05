@@ -28,7 +28,7 @@ A data science project was developed to build, evaluate and launch a machine lea
 **2.1 - Data Analysis and Prepatarion**
 
 ## **4 - Machine Learning Modeling**
-| Model | Balanced Accuracy |  Precision  |    Recall   |      F1     |      Kappa     |
+|Model| Balanced Accuracy |  Precision  |    Recall   |      F1     |      Kappa     |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
 |Dummy|   0.5 +/- 0.001 |	0.001 +/- 0.003 |	0.001 +/- 0.003 |	0.001 +/- 0.003	| 0.0 +/- 0.003 |
 |Dummy scaled|0.501 +/- 0.002	|0.002 +/- 0.003|	0.002 +/- 0.003|	0.002 +/- 0.003|	0.001 +/- 0.003|

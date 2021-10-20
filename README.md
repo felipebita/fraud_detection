@@ -26,8 +26,11 @@ You have been hired as a Data Science Consultant to create a highly accurate fra
 A data science project was developed to build, evaluate and launch a machine learning model capable of classifying transactions as fraudulent or legitimate. The project consists of the following steps:
 
 **2.1 - Data Analysis and Prepatarion**
+
 **2.2 - Machine Learning Modeling**
+
 **2.3 - Company Expansion Strategy**
+
 **2.4 - Model Deploy**
 
 ## **4 - Machine Learning Modeling**
@@ -51,7 +54,7 @@ A data science project was developed to build, evaluate and launch a machine lea
 |KNeighborsClassifier &|	0.866 +/- 0.015|	0.918 +/- 0.024|	0.732 +/- 0.03|	0.814 +/- 0.02|	0.813 +/- 0.02|
 |Random Forest &|	0.87 +/- 0.018|	0.95 +/- 0.017|	0.741 +/- 0.036|	0.832 +/- 0.025|	0.832 +/- 0.025|
 |**Random Forest**|**0.872 +/- 0.019**	|**0.958 +/- 0.013**|**0.744 +/- 0.037**	|**0.837 +/- 0.024**	|**0.837 +/- 0.024**|
-
+> & for model with features scaled. 
 
 
 

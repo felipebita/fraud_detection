@@ -33,7 +33,7 @@ A data science project was developed to build, evaluate and launch a machine lea
 
 **2.4 - Model Deploy**
 
-**2.5 - Report writing**
+**2.5 - Report Writing**
 
 ## **3 - Data Analysis Report**
 

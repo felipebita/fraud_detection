@@ -46,6 +46,10 @@ The one time model was saved and deployed. A small dataset was used to test the 
 A report with all relevant information obtained during the project was written.
   
 ## **3 - Data Analysis Report**
+![image](https://user-images.githubusercontent.com/44379044/147887249-347b10c8-cbf1-4b46-949f-236926011b98.png)
+![image](https://user-images.githubusercontent.com/44379044/147887255-102e0ef7-6ac1-486d-a9d0-3c247610541b.png)
+![image](https://user-images.githubusercontent.com/44379044/147887256-5454a9fa-1b3b-4585-b467-7fccc6a78683.png)
+![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 
 ## **4 - Machine Learning Modeling Results**
 

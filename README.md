@@ -27,37 +27,46 @@ A data science project was developed to build, evaluate and launch a machine lea
 
 **2.1 - Data Analysis and Preparation**
 
+In this step the data was analyzed in terms of structure, features information, datatypes, missing data and statistics summary. Furthermore, features were selected and the data prepared to be used in the modeling.
+
 **2.2 - Machine Learning Modeling**
 
+For this project, seven ML models for classification: Naive Bayes (NB), Logistic Regression (LR), K-Nearest Neighbors (KNN), Suport Vector Machine (SVM), Random Forest (RF), Multilayer perceptron (MLP), Light Gradient Boosting Machine (LGBM) and XGBoost (XGB); were evaluted considering four metrics: Balanced Accuracy, Precision, Recall, F1 and Kappa; in a 5-fold cross validation strategy. Scalled and not scalled data were tested and hyperparameter tunning was done for the best model.
+  
 **2.3 - Company Expansion Strategy**
 
+With the best model selected, a one time modeling was done and the results used to calculate the prospects of the company strategy using the model. Then, the questions of "The Challenge" were answered.
+  
 **2.4 - Model Deploy**
 
+The one time model was saved and deployed. A small dataset was used to test the API and the model.
+  
 **2.5 - Report Writing**
 
+A report with all relevant information obtained during the project was written.
+  
 ## **3 - Data Analysis Report**
 
 ## **4 - Machine Learning Modeling Results**
-|Model| Balanced Accuracy |  Precision  |    Recall   |      F1     |      Kappa     |
+
+| Model | Balanced Accuracy	| Precision	| Recall	| F1	| Kappa |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
-|DM|   0.5 +/- 0.001 |	0.001 +/- 0.003 |	0.001 +/- 0.003 |	0.001 +/- 0.003	| 0.0 +/- 0.003 |
-|DM &|0.501 +/- 0.002	|0.002 +/- 0.003|	0.002 +/- 0.003|	0.002 +/- 0.003|	0.001 +/- 0.003|
-|NB &|	0.785 +/- 0.004	|0.003 +/- 0.0|	0.991 +/- 0.009	|0.006 +/- 0.0	|0.004 +/- 0.0|
-|LR &|	0.505 +/- 0.006|	0.567 +/- 0.467|	0.01 +/- 0.012|	0.02 +/- 0.022|	0.02 +/- 0.022|
-|NB|	0.576 +/- 0.01|	0.07 +/- 0.015|	0.154 +/- 0.02|	0.096 +/- 0.019|	0.094 +/- 0.019|
-|SVM &|	0.533 +/- 0.006|	1.0 +/- 0.0|	0.066 +/- 0.012|	0.124 +/- 0.021|	0.124 +/- 0.021|
-|LGBM &|	0.603 +/- 0.097|	0.169 +/- 0.127|	0.208 +/- 0.194|	0.183 +/- 0.153|	0.182 +/- 0.153|
-|LGBM|	0.603 +/- 0.097|	0.169 +/- 0.127|	0.208 +/- 0.194|	0.183 +/- 0.153|	0.182 +/- 0.153|
-|MLP|	0.803 +/- 0.092|	0.286 +/- 0.155|	0.615 +/- 0.178|	0.352 +/- 0.166|	0.351 +/- 0.166|
-|SVM|	0.622 +/- 0.011|	0.995 +/- 0.009|	0.243 +/- 0.022|	0.39 +/- 0.028|	0.39 +/- 0.028|
-|LR|	0.844 +/- 0.073|	0.39 +/- 0.23| 0.689 +/- 0.146|	0.432 +/- 0.073|	0.431 +/- 0.073|
-|MLP &|	0.673 +/- 0.012	|0.912 +/- 0.074|	0.346 +/- 0.024|	0.501 +/- 0.032|	0.5 +/- 0.032|
-|KNN|	0.804 +/- 0.015|	0.843 +/- 0.033|	0.608 +/- 0.03|	0.706 +/- 0.028	|0.705 +/- 0.028|
-|XGB|	0.842 +/- 0.022	|0.975 +/- 0.014|	0.683 +/- 0.043|	0.803 +/- 0.029|	0.802 +/- 0.029|
-|XGB &|	0.842 +/- 0.022|	0.975 +/- 0.014|	0.683 +/- 0.043|	0.803 +/- 0.029|	0.802 +/- 0.029|
-|KNN &|	0.866 +/- 0.015|	0.918 +/- 0.024|	0.732 +/- 0.03|	0.814 +/- 0.02|	0.813 +/- 0.02|
-|RF &|	0.87 +/- 0.018|	0.95 +/- 0.017|	0.741 +/- 0.036|	0.832 +/- 0.025|	0.832 +/- 0.025|
-|**RF**|**0.872 +/- 0.019**	|**0.958 +/- 0.013**|**0.744 +/- 0.037**	|**0.837 +/- 0.024**	|**0.837 +/- 0.024**|
+|LR & |	0.513 +/- 0.014 |	0.933 +/- 0.133 |	0.025 +/- 0.028 |	0.047 +/- 0.052 |	0.047 +/- 0.052 |
+|NB	| 0.693 +/- 0.012 |	0.078 +/- 0.01 |	0.4 +/- 0.023 | 0.131 +/- 0.015 |	0.126 +/- 0.015 |
+|SVM &	| 0.536 +/- 0.011	| 1.0 +/- 0.0	| 0.071 +/- 0.023 |	0.132 +/- 0.039	| 0.132 +/- 0.039 |
+|NB & |	0.698 +/- 0.011 |	0.082 +/- 0.01 |	0.411 +/- 0.021	| 0.137 +/- 0.015	| 0.132 +/- 0.015 |
+|LGBM &	| 0.691 +/- 0.1 |	0.275 +/- 0.2 |	0.386 +/- 0.201 |	0.309 +/- 0.197 |	0.306 +/- 0.198 |
+|LGBM |	0.696 +/- 0.12 |	0.308 +/- 0.211 |	0.395 +/- 0.239 |	0.332 +/- 0.221 |	0.33 +/- 0.222 |
+|SVM	| 0.621 +/- 0.012	| 0.995 +/- 0.01 |	0.242 +/- 0.024 |	0.389 +/- 0.031 |	0.388 +/- 0.031 |
+|MLP &	| 0.694 +/- 0.019 |	0.913 +/- 0.051	| 0.387 +/- 0.037	| 0.543 +/- 0.044	| 0.543 +/- 0.044 |
+|LR |	0.847 +/- 0.021 |	0.485 +/- 0.019 |	0.696 +/- 0.042 |	0.57 +/- 0.01 |	0.569 +/- 0.01 |
+|MLP	| 0.903 +/- 0.065 |	0.529 +/- 0.23 |	0.81 +/- 0.133 |	0.584 +/- 0.147 |	0.582 +/- 0.148 |
+|KNN	| 0.834 +/- 0.013	| 0.864 +/- 0.028 |	0.668 +/- 0.027 |	0.753 +/- 0.023 |	0.753 +/- 0.023 |
+|KNN & |	0.863 +/- 0.011	| 0.918 +/- 0.015	| 0.727 +/- 0.022	| 0.811 +/- 0.014	| 0.811 +/- 0.014 |
+|XGB	| 0.853 +/- 0.018	| 0.976 +/- 0.014	| 0.706 +/- 0.036	| 0.818 +/- 0.025	| 0.818 +/- 0.025 |
+|XGB &	| 0.853 +/- 0.018	| 0.976 +/- 0.014	| 0.706 +/- 0.036	| 0.818 +/- 0.025	| 0.818 +/- 0.025 |
+|RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
+|**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
 ## **5 - Company Expansion Strategy**
 

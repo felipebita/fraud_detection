@@ -48,8 +48,8 @@ A report with all relevant information obtained during the project was written.
 ## **3 - Data Analysis Report**
 ![image](https://user-images.githubusercontent.com/44379044/147887249-347b10c8-cbf1-4b46-949f-236926011b98.png)
 ![image](https://user-images.githubusercontent.com/44379044/147887255-102e0ef7-6ac1-486d-a9d0-3c247610541b.png)
+![download](https://user-images.githubusercontent.com/44379044/172036574-e6a88e00-2fdb-4a88-91ec-db6d578babe7.png)
 ![image](https://user-images.githubusercontent.com/44379044/147887256-5454a9fa-1b3b-4585-b467-7fccc6a78683.png)
-![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 
 ## **4 - Machine Learning Modeling Results**
 
@@ -72,6 +72,7 @@ A report with all relevant information obtained during the project was written.
 |RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
 |**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
+![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 ## **5 - Company Expansion Strategy**
 
 ## **6 - Conclusions and Prospects**

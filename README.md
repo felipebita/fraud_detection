@@ -46,10 +46,36 @@ The one time model was saved and deployed. A small dataset was used to test the 
 A report with all relevant information obtained during the project was written.
   
 ## **3 - Data Analysis Report**
+
+
+|step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
+|:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
+|count	 |260921.00000 |	260921.00000 |	260921.00000 |	260921.00000	 |260921.00000 |	260921.00000 |
+|mean |	241.89985	 |319024.10950 |	47665.32754 |	16160.67231	 |1702898.53733	 |2050760.75224 |
+|std |	141.87174	 |936601.32092 |	258802.44135 |	157815.65767 |	4235081.31933 |	4723136.02123 |
+|min |	1.00000 |	0.00000	0.00000 |	0.00000 |	0.00000 |	0.00000 |
+|25%	 |155.00000 |	83419.04000 |	0.00000 |	0.00000 |	128900.08000 |	330098.49000 |
+|50%	 |236.00000 |	171795.28000 |	303.00000 |	0.00000 |	556562.71000 | 829041.24000 |
+|75% |	332.00000 |	307330.29000 |	31072.00000 |	0.00000	 |1745440.47000 |	2125512.53000 |
+|max	 |742.00000 |	92445516.64000 |	59585040.37000 |	49585040.37000 |	300985927.86000 |	301140972.46000 |
+
+
 ![image](https://user-images.githubusercontent.com/44379044/147887249-347b10c8-cbf1-4b46-949f-236926011b98.png)
+
+Figure 1. Charts showing the composition in percentage of the variables Type of transacation and isFraud (A and B); and Type of transactions for the data that is a fraud (C).
+
 ![image](https://user-images.githubusercontent.com/44379044/147887255-102e0ef7-6ac1-486d-a9d0-3c247610541b.png)
-![download](https://user-images.githubusercontent.com/44379044/172036574-e6a88e00-2fdb-4a88-91ec-db6d578babe7.png)
+
+Figure 2. Chart showing the composition in percentage of the filtered dataset with only transactions of type Transfer and Cashout.
+
 ![image](https://user-images.githubusercontent.com/44379044/147887256-5454a9fa-1b3b-4585-b467-7fccc6a78683.png)
+
+Figure 3. Distribution plots of the continuous variables
+
+
+![download](https://user-images.githubusercontent.com/44379044/172036574-e6a88e00-2fdb-4a88-91ec-db6d578babe7.png)
+
+Figure 4. Correlation matrix of  the continuous variables
 
 ## **4 - Machine Learning Modeling Results**
 
@@ -72,7 +98,12 @@ A report with all relevant information obtained during the project was written.
 |RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
 |**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
+Table 1. Results regarding the evaluation metrics for all the classification models.
+
 ![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
+
+Figure 5. Confusion matrix of the model selected to be deployed.
+
 ## **5 - Company Expansion Strategy**
 
 ## **6 - Conclusions and Prospects**

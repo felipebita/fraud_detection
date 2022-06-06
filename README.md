@@ -47,7 +47,7 @@ A report with all relevant information obtained during the project was written.
   
 ## **3 - Data Analysis Report**
 
-The dataset used in this project was composed of 600k transactions randomly sampled from the 600kk+ complete data, this sampling was done for time reduction reasons. A first look in the data shows that most of the transactions are of the Payment and Cash Out types, and that only 0.1% era fraudulent transactions (Figure 1-A,B).
+The dataset used in this project was composed of 600k transactions randomly sampled from the 600kk+ complete data, this sampling was done for time reduction reasons. A first look in the data shows that most of the transactions are of the Payment, Cash Out and Cash In types, and that only 0.1% were fraudulent transactions (Figure 1-A,B). Beyond that, there are only fraudulent transacations in the types Transfer and Cash Out (Figure 1-C). This way, I removed the other types of transactions from the data and continued with 260921 samples, aproximatelly 81% of the final data set is Cash Out and now the fraudulent transcations represents 0.3% (Figure 2).
 
 ![image](https://user-images.githubusercontent.com/44379044/147887249-347b10c8-cbf1-4b46-949f-236926011b98.png)
 
@@ -55,7 +55,7 @@ Figure 1. Charts showing the composition in percentage of the variables Type of 
 
 ![image](https://user-images.githubusercontent.com/44379044/147887255-102e0ef7-6ac1-486d-a9d0-3c247610541b.png)
 
-Figure 2. Chart showing the composition in percentage of the filtered dataset with only transactions of type Transfer and Cashout.
+Figure 2. Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; .
 
 |step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|

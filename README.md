@@ -47,15 +47,15 @@ A report with all relevant information obtained during the project was written.
   
 ## **3 - Data Analysis Report**
 
-The dataset used in this project was composed of 600k transactions randomly sampled from the 600kk+ complete data, this sampling was done for time reduction reasons. A first look in the data shows that most of the transactions are of the Payment, Cash Out and Cash In types, and that only 0.1% were fraudulent transactions (Figure 1-A,B). Beyond that, there are only fraudulent transacations in the types Transfer and Cash Out (Figure 1-C). This way, I removed the other types of transactions from the data and continued with 260921 samples, aproximatelly 81% of the final data set is Cash Out and now the fraudulent transcations represents 0.3% (Figure 2).
+The dataset used in this project was composed of 600k transactions randomly sampled from the 600kk+ complete data, this sampling was done for time reduction reasons. A first look in the data shows that most of the transactions are of the Payment, Cash Out and Cash In types, and that only 0.1% were fraudulent transactions **(Figure 1-A,B)**. Beyond that, there are only fraudulent transacations in the types Transfer and Cash Out **(Figure 1-C)**. This way, I removed the other types of transactions from the data and continued with 260921 samples, aproximatelly 81% of the final data set is Cash Out and now the fraudulent transcations represents 0.3% **(Figure 2)**.
 
 ![image](https://user-images.githubusercontent.com/44379044/147887249-347b10c8-cbf1-4b46-949f-236926011b98.png)
 
-Figure 1. Charts showing the composition in percentage of the variables Type of transacation and isFraud (A and B); and Type of transactions for the data that is a fraud (C).
+**Figure 1.** Charts showing the composition in percentage of the variables Type of transacation and isFraud (A and B); and Type of transactions for the data that is a fraud (C).
 
 ![image](https://user-images.githubusercontent.com/44379044/147887255-102e0ef7-6ac1-486d-a9d0-3c247610541b.png)
 
-Figure 2. Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; .
+**Figure 2.** Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; .
 
 |step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
@@ -68,16 +68,16 @@ Figure 2. Chart showing the composition in percentage of the variables Transacti
 |75% |	332.00000 |	307330.29000 |	31072.00000 |	0.00000	 |1745440.47000 |	2125512.53000 |
 |max	 |742.00000 |	92445516.64000 |	59585040.37000 |	49585040.37000 |	300985927.86000 |	301140972.46000 |
 
-Table 1. Descriptive statistics of the continuous variables.
+**Table 1.** Descriptive statistics of the continuous variables.
 
 ![image](https://user-images.githubusercontent.com/44379044/147887256-5454a9fa-1b3b-4585-b467-7fccc6a78683.png)
 
-Figure 3. Distribution plots of the continuous variables.
+**Figure 3.** Distribution plots of the continuous variables.
 
 
 ![download](https://user-images.githubusercontent.com/44379044/172036574-e6a88e00-2fdb-4a88-91ec-db6d578babe7.png)
 
-Figure 4. Correlation matrix of  the continuous variables.
+**Figure 4.** Correlation matrix of  the continuous variables.
 
 ## **4 - Machine Learning Modeling Results**
 
@@ -100,11 +100,11 @@ Figure 4. Correlation matrix of  the continuous variables.
 |RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
 |**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
-Table 2. Results regarding the evaluation metrics for all the classification models.
+**Table 2.** Results regarding the evaluation metrics for all the classification models.
 
 ![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 
-Figure 5. Confusion matrix of the model selected to be deployed.
+**Figure 5.** Confusion matrix of the model selected to be deployed.
 
 ## **5 - Company Expansion Strategy**
 

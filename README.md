@@ -55,7 +55,9 @@ The dataset used in this project was composed of 600k transactions randomly samp
 
 ![image](https://user-images.githubusercontent.com/44379044/147887255-102e0ef7-6ac1-486d-a9d0-3c247610541b.png)
 
-**Figure 2.** Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; .
+**Figure 2.** Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; 
+
+To continue the data analysis, I summarized the descriptive statistics of the continuous variables in the **Table 1** and plotted the distributions in **Figure 3**. As we can see, those variables have extremelly high values and most of the  
 
 |step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|

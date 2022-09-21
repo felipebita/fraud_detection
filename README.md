@@ -59,6 +59,7 @@ The dataset used in this project was composed of 600k transactions randomly samp
 
 To continue the data analysis, I summarized the descriptive statistics of the continuous variables in the **Table 1** and plotted the distributions in **Figure 3**. As we can see, those variables have extremelly high values and most of the  
 
+**Table 1.** Descriptive statistics of the continuous variables.
 |step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
 |count	 |260921.00000 |	260921.00000 |	260921.00000 |	260921.00000	 |260921.00000 |	260921.00000 |
@@ -69,8 +70,6 @@ To continue the data analysis, I summarized the descriptive statistics of the co
 |50%	 |236.00000 |	171795.28000 |	303.00000 |	0.00000 |	556562.71000 | 829041.24000 |
 |75% |	332.00000 |	307330.29000 |	31072.00000 |	0.00000	 |1745440.47000 |	2125512.53000 |
 |max	 |742.00000 |	92445516.64000 |	59585040.37000 |	49585040.37000 |	300985927.86000 |	301140972.46000 |
-
-**Table 1.** Descriptive statistics of the continuous variables.
 
 ![image](https://user-images.githubusercontent.com/44379044/147887256-5454a9fa-1b3b-4585-b467-7fccc6a78683.png)
 

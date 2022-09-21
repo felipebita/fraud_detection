@@ -5,16 +5,16 @@
 This is a not finished data science project, the business problem is proposed by [Seja Um Data Scientist](https://sejaumdatascientist.com/crie-uma-solucao-para-fraudes-em-transacoes-financeiras-usando-machine-learning/), using the data set [Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ealaxi/paysim1).
 
 ## **1 - Business Understanding**
-### 1.1 - Blocker Fraud Company
+**1.1 - Blocker Fraud Company**
 The Blocker Fraud Company is specialized in detecting fraudulent transactions made through mobile devices, the service Blocker Fraud ensures the blocking of those transactions. The company's business model is of the Service type, with monetization made by the performance of the service provided, that is, the user pays a fixed fee on the success in detecting fraud in the client's transactions.
 
-### 1.2 - Expansion Strategy
+**1.2 - Expansion Strategy**
 A very agressive strategy:
 *   The company will receive 25% of the value of each transaction that is truly detected as fraud.
 *   The company will receive 5% of the value of each transaction detected as fraud, however the transaction is truly legitimate.
 *   The company will return 100% of the value to the customer for each transaction detected as legitimate, however the transaction is truly a fraud.
 
-### 1.3 - The Challenge
+**1.3 - The Challenge**
 You have been hired as a Data Science Consultant to create a highly accurate fraud detection model. You need to provide a model in production where clients will send their transactions via API to be classified as fraudulent or legitimate. In addition, you need to submit a report containing your model's performance and the profit that the company will make using the service. Your report should contain the answers to the following questions:
 *   What is the model's Precision and Accuracy?
 *   How Reliable is the model in classifying transactions as legitimate or fraudulent?
@@ -109,6 +109,38 @@ To continue the data analysis, I summarized the descriptive statistics of the co
 **Figure 5.** Confusion matrix of the model selected to be deployed.
 
 ## **5 - Company Expansion Strategy**
+**5.1 The company will receive 25% of the value of each transaction that is truly detected as fraud.**
 
-## **6 - Conclusions and Prospects**
+* The company would receive **$63.252.552** for the correct detection of fraudulent transactions.
+
+**5.2 The company will receive 5% of the value of each transaction detected as fraud, however the transaction is truly legitimate.**
+
+* The company would receive **$363.418** for the false detection of fraudulent transactions.
+
+**5.3 The company will return 100% of the value to the customer for each transaction detected as legitimate, however the transaction is truly a fraud.**
+
+* The company would return **$6.355.497** for the miss detection of fraud transactions.
+
+## **6 - Report Results**
+**6.1 What is the model's Precision and Accuracy?**
+
+* The 5-fold cross-validation of the model showed a balanced accuracy of **0.865 +/- 0.013** and a precision of **0.961 +/- 0.021**.
+
+**6.2 How Reliable is the model in classifying transactions as legitimate or fraudulent?**
+
+* The model showed a F1 score of **0.829 +/- 0.017**
+
+**6.3 What is the Expected Billing by the Company if we classify 100% of transactions with the model?**
+
+* Using the model the company can revenue **$63.615.970**.
+
+**6.4 What is the Loss Expected by the Company in case of model failure?**
+
+* The company would return **$6.355.497** for the miss detection of fraud transactions.
+
+**6.5 What is the Profit Expected by the Blocker Fraud Company when using the model?**
+
+* Using the model the company can revenue **$57.260.473**.
+
+## **7 - Conclusions and Prospects**
 

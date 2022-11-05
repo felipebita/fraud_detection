@@ -57,7 +57,7 @@ The dataset used in this project was composed of 600k transactions randomly samp
 
 **Figure 2.** Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; 
 
-To continue the data analysis, I summarized the descriptive statistics of the continuous variables in the **Table 1** and plotted the distributions in **Figure 3**. As we can see, those variables have extremelly high values and most of the  
+To continue the data analysis, I summarized the descriptive statistics of the continuous variables in the **Table 1** and plotted the distributions in **Figure 3**. As we can see, those variables have extremelly high values but most of the data are much smaller values. In **Figure 4**, the correlation matrix showed that the variable 'newbalanceorig' and 'oldbalancedest' are highly correlated (cor ~= 1) to 'oldbalanceorig' and 'newbalancedest', as expected. Futhermore, I observed an intermediate correlation (cor ~= 0.5) between 'amount' and 'newbalancedest' and a slightly smaller value (cor ~= 0.3) for 'amount' and 'oldbalancedest'. The other variables showed no correlation. 
 
 **Table 1.** Descriptive statistics of the continuous variables.
 |step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
@@ -82,6 +82,9 @@ To continue the data analysis, I summarized the descriptive statistics of the co
 
 ## **4 - Machine Learning Modeling Results**
 
+In the machine learning modeling step, the best evaluated model was Random Forest and no difference was observed in relation to scalled and not scalled data **(Table 2)**. Hyperparameter tuning was evaluated considering different number of estimators (100, 150, 200), criterion (gini and entropy) and max number of features (auto, 1, 3 and 5). The results of the hyperparameter tunning were very similar, this way the default configuration was maintained.
+
+**Table 2.** Results regarding the evaluation metrics for all the classification models.
 | Model | Balanced Accuracy	| Precision	| Recall	| F1	| Kappa |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
 |LR & |	0.513 +/- 0.014 |	0.933 +/- 0.133 |	0.025 +/- 0.028 |	0.047 +/- 0.052 |	0.047 +/- 0.052 |
@@ -101,11 +104,18 @@ To continue the data analysis, I summarized the descriptive statistics of the co
 |RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
 |**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
-**Table 2.** Results regarding the evaluation metrics for all the classification models.
 
 ![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 
 **Figure 5.** Confusion matrix of the model selected to be deployed.
+
+**Table 3.** Results regarding the evaluation metrics for the model selected to be deployed.
+| Model | Balanced Accuracy	| Precision	| Recall	| F1	| Kappa |
+|:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
+|RF |	0.88042 |	0.93077 |	0.76101 |	0.83737	 |	0.83692 |
+
+
+
 
 ## **5 - Company Expansion Strategy**
 **5.1 The company will receive 25% of the value of each transaction that is truly detected as fraud.**

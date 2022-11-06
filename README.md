@@ -57,7 +57,7 @@ The dataset used in this project was composed of 600k transactions randomly samp
 
 **Figure 2.** Chart showing the composition in percentage of the variables Transaction Type and isFraud for the filtered dataset with only transactions of type Transfer and Cashout; 
 
-To continue the data analysis, I summarized the descriptive statistics of the continuous variables in the **Table 1** and plotted the distributions in **Figure 3**. As we can see, those variables have extremelly high values but most of the data are much smaller values. In **Figure 4**, the correlation matrix showed that the variable 'newbalanceorig' and 'oldbalancedest' are highly correlated (cor ~= 1) to 'oldbalanceorig' and 'newbalancedest', as expected. Futhermore, I observed an intermediate correlation (cor ~= 0.5) between 'amount' and 'newbalancedest' and a slightly smaller value (cor ~= 0.3) for 'amount' and 'oldbalancedest'. The other variables showed no correlation. 
+To continue the data analysis, I summarized the descriptive statistics of the continuous variables in the **Table 1** and plotted the distributions in **Figure 3**. As we can see, those variables have extremelly high values but most of the data are much smaller values. 
 
 **Table 1.** Descriptive statistics of the continuous variables.
 |step |	amount |	oldbalanceOrg |	newbalanceOrig |	oldbalanceDest |	newbalanceDest |
@@ -75,6 +75,7 @@ To continue the data analysis, I summarized the descriptive statistics of the co
 
 **Figure 3.** Distribution plots of the continuous variables.
 
+To continue the feature analysis, I computed a correlation matrix **(Figure 4)** and observed that the variable 'newbalanceorig' and 'newbalancedest' are highly correlated (cor ~= 1) to 'oldbalanceorig' and 'oldbalancedest', I observed an intermediate correlation (cor ~= 0.5) between 'amount' and 'newbalancedest' and a slightly smaller value (cor ~= 0.3) for 'amount' and 'oldbalancedest'. The other variables showed no correlation (cor ~= 0). 
 
 ![download](https://user-images.githubusercontent.com/44379044/172036574-e6a88e00-2fdb-4a88-91ec-db6d578babe7.png)
 
@@ -104,7 +105,7 @@ In the machine learning modeling step, the best evaluated model was Random Fores
 |RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
 |**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
-
+The final model chosen to be deployed was evaluated 
 ![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 
 **Figure 5.** Confusion matrix of the model selected to be deployed.
@@ -113,8 +114,6 @@ In the machine learning modeling step, the best evaluated model was Random Fores
 | Model | Balanced Accuracy	| Precision	| Recall	| F1	| Kappa |
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
 |RF |	0.88042 |	0.93077 |	0.76101 |	0.83737	 |	0.83692 |
-
-
 
 
 ## **5 - Company Expansion Strategy**

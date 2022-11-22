@@ -43,7 +43,7 @@ The one time model was saved and deployed. A small dataset was used to test the 
   
 **2.5 - Report Writing**
 
-A report with all relevant information obtained during the project was written.
+A report with all relevant information obtained during the project was written. And the notebook with all the code was made [available](https://github.com/felipebita/fraud_detection/blob/main/notebook/fraud_project.ipynb).
   
 ## **3 - Data Analysis Report**
 
@@ -105,7 +105,8 @@ In the machine learning modeling step, the best evaluated model was Random Fores
 |RF & |	0.865 +/- 0.015	| 0.955 +/- 0.023	| 0.731 +/- 0.029	|0.827 +/- 0.02	| 0.827 +/- 0.02 |
 |**RF**	| **0.865 +/- 0.013** | **0.961 +/- 0.021** | **0.729 +/- 0.026** | **0.829 +/- 0.017**	| **0.828 +/- 0.017** |
 
-The final model chosen to be deployed was evaluated 
+The evaluation of the model chosen to be deployed showed good metrics, with a Balanced Accuracy of 0.88 **(Figure 5; Table 3)**. These results were used to calculate the prospects of the company strategy.
+
 ![image](https://user-images.githubusercontent.com/44379044/147887264-bfa7d1e0-75c6-411d-b534-daccf181f41a.png)
 
 **Figure 5.** Confusion matrix of the model selected to be deployed.
@@ -115,6 +116,7 @@ The final model chosen to be deployed was evaluated
 |:---------:|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
 |RF |	0.88042 |	0.93077 |	0.76101 |	0.83737	 |	0.83692 |
 
+Finally, the model was deployed and I tested it using a dataset with 10 samples. The model worked fine.
 
 ## **5 - Company Expansion Strategy**
 **5.1 The company will receive 25% of the value of each transaction that is truly detected as fraud.**

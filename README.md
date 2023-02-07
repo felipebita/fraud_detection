@@ -2,7 +2,7 @@
 
 # **Fraudulent Transaction Detection**
 
-This is a not finished data science project. The business problem is proposed by [Seja Um Data Scientist](https://sejaumdatascientist.com/crie-uma-solucao-para-fraudes-em-transacoes-financeiras-usando-machine-learning/) using the data set [Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ealaxi/paysim1).
+This is a data science project with a business problem proposed by [Seja Um Data Scientist](https://sejaumdatascientist.com/crie-uma-solucao-para-fraudes-em-transacoes-financeiras-usando-machine-learning/) using the data set [Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ealaxi/paysim1).
 
 ## **1 - Business Understanding**
 **1.1 - Blocker Fraud Company**
@@ -154,3 +154,4 @@ Finally, the model was deployed and I tested it using a dataset with 10 samples.
 
 ## **7 - Conclusions and Prospects**
 
+The final model obtained in this project had a really good performance, which makes the company business model profitable. The prospects for the service would be increase the trainig data set and evaluate different classification models such neural network, aiming to enhance the performance of the model deployed.    

@@ -154,4 +154,4 @@ Finally, the model was deployed and I tested it using a dataset with 10 samples.
 
 ## **7 - Conclusions and Prospects**
 
-The final model obtained in this project had a really good performance, which makes the company business model profitable. The prospects for the service would be increase the trainig data set and evaluate different classification models such neural network, aiming to enhance the performance of the model deployed.    
+The final model obtained in this project had a really good performance, which makes the company business profitable. The prospects for the service would be increase the trainig data set and evaluate different classification models such as neural network, aiming to enhance the performance of the service.    

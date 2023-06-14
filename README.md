@@ -49,7 +49,8 @@ A report with all relevant information obtained during the project was written. 
 
 The dataset used in this project was composed of 600k transactions randomly sampled from the 600kk+ complete data, this sampling was done for time reduction reasons. A first look in the data shows that most of the transactions are of the Payment, Cash Out and Cash In types, and that only 0.1% were fraudulent transactions **(Figure 1-A,B)**. Beyond that, there are only fraudulent transacations in the types Transfer and Cash Out **(Figure 1-C)**. This way, I removed the other types of transactions from the data and continued with 260921 samples, aproximatelly 81% of the final data set is Cash Out and now the fraudulent transcations represents 0.3% **(Figure 2)**.
 
-![image](https://user-images.githubusercontent.com/44379044/147887249-347b10c8-cbf1-4b46-949f-236926011b98.png)
+![image](https://github.com/felipebita/fraud_detection/assets/44379044/0a7ab728-25e3-4ed8-a7d6-211a9ed4fee1)
+![image](https://github.com/felipebita/fraud_detection/assets/44379044/36bb62db-f097-4256-a662-5b94f86e73ba)
 
 **Figure 1.** Charts showing the composition in percentage of the variables Type of transacation and isFraud (A and B); and Type of transactions for the data that is a fraud (C).
 

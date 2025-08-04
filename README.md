@@ -1,3 +1,15 @@
+**⚠️ Project Deprecation & Refactoring Notice**
+
+This project is now considered a legacy version and is no longer maintained. It is preserved for archival purposes.
+
+A new, significantly improved version is under active development. The refactoring focuses on:
+1.  **A more realistic and robust business case** for financial evaluation.
+2.  **Integration of MLOps best practices**, including experiment tracking, model monitoring, and a CI/CD pipeline for machine learning.
+
+For a current representation of my skills and best practices, please see the new repository.
+
+ **➡️ [Link to the New, Improved Project Repository](https://github.com/felipebita/ml_fraud_detection)**
+
 ![fraud](https://user-images.githubusercontent.com/44379044/131612132-7b78ceaa-09f9-4eef-b86a-b3979fae2909.png)
 
 # **Fraudulent Transaction Detection**
